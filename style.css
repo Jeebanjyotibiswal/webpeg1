@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("background2_image.jpg");
+    background-size: cover;
+    
+}
+.nav{
+    height: 100px;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+}
+nav{
+    display: flex;
+    height: 120px;
+    width: 1200px;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    
+    
+}
+ nav a:hover{
+    font-size: 20px;
+   transition-duration: 20ms;
+ }
+
+.search{
+    height: 30px;
+    background: none;
+    border: 1px solid  silver;
+}
+.search:hover
+{
+    border: 1px solid yellow;
+}
+nav a:hover{
+    border-bottom: 1px solid rgb(178, 245, 35);
+}
+.a{
+    color: silver;
+}
+.a:hover{
+    border: 1px solid yellow;
+}
+.b{
+    background: none;
+    color: silver;
+    border: 1px solid silver;
+    height: 30px;
+}
+.b:hover{
+    border: 1px solid yellow;
+}
+.jeeban{
+    font-size: 25px;
+}
+.main{
+    height: 300px;
+    width: 300px;
+    
+    position: relative;
+    top: 80px;
+    left: 50px;
+}
+.web{
+    color: white;
+    font-size: 40px;
+    font-weight:700 ;
+}
+.development{
+    color: rgb(220, 176, 30);
+    font-size: 40px ;
+    font-weight:700 ;
+}
+.course{
+    color: white;
+    font-size: 30px;
+    font-weight:700 ;
+}
+.same{
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.login{
+    height: 300px;
+    width: 300px;
+   
+    position: relative;
+    left: 1100px;
+    bottom: 230px;
+   background-color: black;
+padding: 30px;
+border-radius: 8px;
+
+}
+.logg{
+    height: 25px;
+    width: 200px;
+    background-color: white;
+    margin-left: 60px;
+    text-align: center;
+    color: orangered;
+    font-size: 20px;
+    border-radius: 8px;
+}
+.name{
+background-color: black;
+color: white(232, 219, 219);
+border: none;
+border-bottom: 2px solid gainsboro;
+margin-left: 20px;
+margin-top: 15px;
+width: 250px;
+}
+.pass{
+    background-color: black;
+    color: white(232, 219, 219);
+    border: none;
+    border-bottom: 2px solid gainsboro;
+    margin-left: 20px;
+    margin-top: 15px;
+    width: 250px;
+}
+.submit{
+    background-color: rgba(239, 243, 9, 0.67);
+    height: 30px;
+    width: 230px;
+    margin-left: 35px;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+.ab{
+    color: white;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.abc{
+    color: white;
+    margin-left: 100px;
+    margin-top: 3px;
+}
+.abc a{
+    text-decoration: none;
+    color: orangered;
+    font-size: 18px;
+}
+.abcd{
+    color: white;
+    margin-left: 110px;
+    margin-top: 20px;
+}
+.icon{
+    height: 50px;
+    width: 300px;
+    
+    margin-top: 20px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.xyz{
+    
+    color: black;
+    width: 80px;
+    background-color: yellow;
+}
+.xyz a{
+    text-decoration: none;
+    color: black;
+}
+.name:active{
+background-color: gray;
+color: white;
+}
+.pass:active{
+    background-color: gray;
+    color: white;
+}
+    .submit :active{
+        background-color: brown;
+    }
+    .join{
+        height: 30px;
+        width: 80px;
+        background-color: orange;
+        position: relative;
+        left: 350px;
+        bottom: 300px;
+        border-radius: 8px;
+    }
+    .jyoti{
+font-size: 20px;
+margin-left: 30px;
+color: white;
+    }
